@@ -49,11 +49,11 @@ static void creerAgenceNantes(){
      
      
 
-     Voiture voitPetitPrix = new Voiture("citroën", "grise", 4, 100, "ess", 100, 5);
+     Voiture voiturePetitPrix = new Voiture("citroën", "grise", 4, 100, "ess", 100, 5);
      Voiture voitureChere = new Voiture("ford", "vert", 4, 100, "ess", 100, 5);
-     agenceNantes.ajouterVehicule(voitPetitPrix);
+     agenceNantes.ajouterVehicule(voiturePetitPrix);
      agenceNantes.ajouterVehicule(voitureChere);
-     // System.out.println(voitPetitPrix);
+     // System.out.println(voiturePetitPrix);
 
 
      agenceNantes.afficherStock(); 
@@ -69,14 +69,14 @@ static void creerAgenceRennes(){
      agenceRennes.ajouterAdresse(adresseRennes);
      
     Client client = new Client("Mamie Nova", 8);
-     Voiture voitPetitPrix = new Voiture("peugeot", "bleu", 4, 100, "ess", 100, 5);
+     Voiture voiturePetitPrix = new Voiture("peugeot", "bleu", 4, 100, "ess", 100, 5);
      Voiture voitureChere = new Voiture("audi", "noir", 4, 100, "ess", 100, 5);
      Velo veloElectrique =new Velo("decathlon", "noir", 3, 10, "vtv", "adulte");
-     agenceRennes.ajouterVehicule(voitPetitPrix);
+     agenceRennes.ajouterVehicule(voiturePetitPrix);
      agenceRennes.ajouterVehicule(voitureChere);
      agenceRennes.ajouterVehicule(veloElectrique);
      agenceRennes.ajouterClient(client);
-     // System.out.println(voitPetitPrix);
+     // System.out.println(voiturePetitPrix);
 
 
      agenceRennes.afficherStock(); 
@@ -95,13 +95,13 @@ static void creerAgenceBrest(){
     agenceBrest.ajouterAdresse(adresseBrest);
     
 
-    Voiture voitPetitPrix = new Voiture("ford", "violet", 4, 100, "ess", 100, 5);
+    Voiture voiturePetitPrix = new Voiture("ford", "violet", 4, 100, "ess", 100, 5);
     Voiture voitureChere = new Voiture("cooper", "rouge", 4, 100, "ess", 100, 5);
     Velo veloElectrique =new Velo("chameau", "camel", 3, 10, "vtt", "adulte");
-    agenceBrest.ajouterVehicule(voitPetitPrix);
+    agenceBrest.ajouterVehicule(voiturePetitPrix);
     agenceBrest.ajouterVehicule(voitureChere);
     agenceBrest.ajouterVehicule(veloElectrique);
-    // System.out.println(voitPetitPrix);
+    // System.out.println(voiturePetitPrix);
 
 
     agenceBrest.afficherStock(); 
